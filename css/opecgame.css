@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+.header-landing {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 70%)),
+    url("https://www.takeabreakthailand.com/wp-content/uploads/2018/03/Banner-%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content {
+  min-height: 25vh;
+  background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 70%)),
+    url("../img/pexels-pixabay-235734.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-content-header {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  padding-left: 10vw;
+}
+
+.header-content-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.header-content-text {
+  font-size: 30px;
+  color: #fff;
+}
+
+.header-header {
+  padding-top: 40vh;
+  padding-left: 10vw;
+}
+
+.header-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.header-text {
+  font-size: 30px;
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(117, 209, 209);
+}
+
+.nav {
+    opacity: 1;
+    background-color: rgba(238, 238, 238, 0.279);
+    backdrop-filter: blur(8px);
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.navbar .navbar-toggler {
+  color: rgba(255, 255, 255, 0.55) !important;
+  border-color: rgba(255, 255, 255, 0) !important;
+}
+
+.navbar-toggler span {
+  display: block;
+  background-color: #4f4f4f;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center left;
+}
+
+.navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+
+.navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+
+.navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+
+.navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
