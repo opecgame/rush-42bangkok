@@ -1,141 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/opecgame.css" />
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/opecgame.js"></script>
+        <title>จังหวัดชุมพร</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/opecgame.css">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/opecgame.js"></script>
-    <title>จังหวัดชุมพร | ทุเรียนป่าละอู</title>
-</head>
+    <body>
+        <div style="min-height: 100vh">
+            <div class="justify-content-md-center">
+                <nav
+                    class="nav navbar navbar-expand-lg fixed-top"
+                    aria-label="Navbar tomyumkung"
+                >
+                    <div class="container">
+                        <span class="navbar-brand fw-bold" href="/">
+                            จังหวัดชุมพร
+                        </span>
+                        <button
+                            class="navbar-toggler collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#devmama-navbar"
+                            aria-controls="devmama-navbar"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
 
-<body>
-    <div style="min-height: 100vh;">
-        <div class="justify-content-md-center">
-            <nav class="nav navbar navbar-expand-lg fixed-top" aria-label="Navbar tomyumkung">
-                <div class="container">
-                    <span class="navbar-brand fw-bold" href="/">
-                        จังหวัดชุมพร
-                    </span>
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#devmama-navbar" aria-controls="devmama-navbar" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="devmama-navbar"
+                        >
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#header"
+                                        ><i class="fas fa-home-alt"></i
+                                        ><b>&nbsp;หน้าแรก</b></a
+                                    >
+                                </li>
 
-                    <div class="collapse navbar-collapse" id="devmama-navbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#header"><i
-                                        class="fas fa-home-alt"></i><b>&nbsp;หน้าแรก</b></a>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./kmitl.html"
+                                        ><i class="fas fa-coin"></i
+                                        ><b>&nbsp;KMITL</b></a
+                                    >
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./palau.html"
+                                        ><i class="fas fa-coin"></i
+                                        ><b>&nbsp;ทุเรียนป่าละอู</b></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-12" id="header">
+                <div class="header-landing">
+                    <h4 class="header-header">
+                        <p class="header-title">จังหวัดชุมพร</p>
+                        <p class="header-text">
+                            ประตูภาคใต้ ไหว้เสด็จในกรม ชมไร่กาแฟ แลหาดทรายรี
+                            ดีกล้วยเล็บมือ ขึ้นชื่อรังนก
+                        </p>
+                    </h4>
+                    <div class="text-center pt-5">
+                        <a
+                            href="#main"
+                            class="btn btn-outline-secondary text-white"
+                            >ดูรายละเอียด</a
+                        >
+                    </div>
+                </div>
+            </div>
+
+            <div name="main" id="main" class="container">
+                <div class="row pt-5 pb-5 justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1>จังหวัดชุมพร</h1>
+                        <hr />
+                        <div class="row">
+                            <div class="col-3">
+                                <img
+                                    src="https://ik.imagekit.io/tvlk/blog/2021/03/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%99%E0%B8%B2%E0%B8%87%E0%B8%A2%E0%B8%A7%E0%B8%99.jpg"
+                                    class="img-fluid rounded-5"
+                                    alt="chumpon"
+                                />
+                            </div>
+                            <div class="col-9 text-start align-self-center">
+                                <h3>ประวัติความเป็นมา</h3>
+                                ชุมพร มีชื่อปรากฏมาตั้งแต่ปี พ.ศ. 1098
+                                โดยมีฐานะเป็นเมืองสิบสองนักษัตรของราชอาณาจักรนครศรีธรรมราช
+                                ใช้รูปแพะเป็นตราเมือง
+                                และเป็นเมืองหน้าด่านฝ่ายเหนือ
+                                เพราะอยู่ตอนบนของภาคใต้ ใน พ.ศ. 1997
+                                รัชสมัยแผ่นดินสมเด็จพระบรมไตรโลกนาถ
+                                ปรากฏในกฎหมายตราสามดวงว่า เมืองชุมพรเป็นเมืองตรี
+                                อาณาจักรฝ่ายใต้ของราชอาณาจักรกรุงศรีอยุธยา
+                                ในช่วงนี้ชนชาติจาม แห่งราชอาณาจักรจามปา
+                                ถูกชาวเวียดนามรุกราน
+                                ชาวจามกลุ่มนี้อพยพเข้าสู่กรุงศรีอยุธยาครั้งแรก
+                                ปรากฏว่ามี "อาสาจาม" ในแผ่นดินนี้
+                                เพื่อการขยายอาณานิคมของกรุงศรีอยุธยา
+                                ส่วนหนึ่งต้องมารักษาด่านเมืองชุมพร
+                                ซึ่งเป็นเมืองตรี และตั้งชาวจาม
+                                เป็นเจ้าเมืองชุมพร
+                                และดินแดนแถบนี้ขึ้นตรงต่อกรุงศรีอยุธยา
+                                เนื่องด้วย ชาวจาม มีความสามารถในการรบ
+                                ที่มีชื่อเสียง เช่น กองอาสาจาม เป็นทหารชั้นดี
+                                มีวินัย เชี่ยวชาญการเดินเรือ รับใช้ราชสำนักมานาน
+                                และเก่งการค้ามาหลายพันปี
+                            </div>
+                        </div>
+                        <div class="pt-3">
+                            <span class="pt-3"
+                                >และต่อมาระหว่าง ปี พ.ศ. 2173 - 2199 ในแผ่นดิน
+                                พระเจ้าปราสาททองแห่งราชอาณาจักรกรุงศรีอยุธยา
+                                ได้กวาดต้อนชาวเมืองแถง หรือ (เดียนเบียนฟู)
+                                อยู่ในประเทศเวียดนาม และชาวเมืองพงสาลี
+                                อยู่ในประเทศลาว มาเป็นพลเมือง เมืองชุมพร
+                                เมืองปะทิว(อำเภอปะทิว) เพื่อทำการเกษตรกรรม
+                                และเมืองท่าการค้าสำคัญ ตั้งแต่นั้นมา
+                                เดิมชาวจามนับถือศาสนาพราหมณ์-ฮินดู พ.ศ. 1400
+                                นับถือศาสนาพุทธมหายาน
+                                และเมื่อค้าขายกับอาหรับก็นับถือ ศาสนาอิสลาม
+                                แต่ชาวจามที่มาอยู่เมืองชุมพร ต่อมานับถือ
+                                ศาสนาพุทธ มีวัฒนธรรม ประเพณี เหมือนกัน
+                                แต่เมื่อเวลาผ่านไปกว่า 500 -600 ปี ที่ชาวจาม
+                                เข้าปกครองเมืองชุมพร
+                                และดินแดนแถบนี้จนแทบจะไม่เหลือวัฒนธรรมเดิมเลย
+                                เช่น ข้าวต้มใบพ้อ ที่ใช้ในงานมงคล
+                                เช่นเดียวกับชาวมุสลิม บ้านกาลอ ตำบลกาลอ
+                                อำเภอรามัญ จังหวัดยะลา
+                                ก็สูญหายไม่ได้ใช้ในงานมงคลแล้ว</span
+                            >
+                        </div>
+                        <div class="row">
+                            <div class="col-9 text-start align-self-center">
+                                คำว่า ชุมพร มีผู้สันนิษฐานว่าน่าจะมาจากคำว่า
+                                “ชุมนุมพล” เนื่องจากเป็นเมืองหน้าด่าน
+                                การเดินทัพไม่ว่าจะมาจากฝ่ายเหนือหรือว่าฝ่ายใต้
+                                ล้วนเข้ามาตั้งค่ายชุมนุมพลกันที่นี่
+                                จึงเรียกจุดนี้ว่า “ชุมนุมพล” ต่อมาเปลี่ยนเป็น
+                                ชุมพร อีกประการหนึ่ง
+                                ในการเดินทางไปทำศึกสงครามของแม่ทัพนายกองตั้งแต่สมัยโบราณมา
+                                เมื่อจะเคลื่อนพลจะต้องทำพิธีส่งทัพโดยการบวงสรวงสิ่งศักดิ์สิทธิ์
+                                ขอให้ได้รับชัยชนะในการสู้รบ
+                                เป็นการบำรุงขวัญทหารในสถานที่ชุมนุม
+                                เพื่อรับพรเช่นนี้
+                                ตรงกับความหมายชุมนุมพรหรือประชุมพร
+                                ซึ่งทั้งสองคำนี้อาจเป็นต้นเหตุของคำว่า
+                                “ชุมนุมพร” เช่นเดียวกัน
+                                แต่อีกทางหนึ่งสันนิษฐานว่า
+                                น่าจะได้มาจากชื่อพันธุ์ไม้ธรรมชาติในท้องถิ่น
+                                ได้แก่ ต้นมะเดื่อชุมพร
+                                เพราะที่ตั้งของเมืองชุมพรนั้นอยู่บนฝั่งแม่น้ำท่าตะเภา
+                                มีต้นมะเดื่อชุมพรขึ้นอยู่มากมาย
+                                ต้นมะเดื่อชุมพรจึงเป็นสัญลักษณ์ส่วนหนึ่งของ
+                                ตราประจำจังหวัดชุมพร
+                            </div>
+                            <div class="col-3">
+                                <img
+                                    src="https://chumphon.cdd.go.th/wp-content/uploads/sites/13/2016/10/20140701_3_1404168057_748997.jpg"
+                                    class="img-fluid rounded-5"
+                                    alt="chumpon"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <h3 class="fw-bolder text-center mb-4">
+                            สิ่งที่น่าสนใจ
+                        </h3>
+                        <div class="row justify-content-center">
+                            <a href="/kmitl.html" class="col-3">
+                                <img
+                                    src="https://i.ytimg.com/vi/FT5BY4kQv-E/maxresdefault.jpg"
+                                    class="img-fluid rounded-5 mb-2"
+                                    alt="kmitl"
+                                />
+                                <h4 class="text-center">KMITL</h4>
+                            </a>
+                            <a href="/palau.html" class="col-3">
+                                <img
+                                    src="https://mpics-cdn.mgronline.com/pics/Images/564000007547601.JPEG"
+                                    class="img-fluid rounded-5 mb-2"
+                                    alt="palau"
+                                />
+                                <h4 class="text-center">ทุเรียนป่าละอู</h4>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <h3 class="fw-bolder text-center">
+                            แหล่งที่มาของข้อมูล
+                        </h3>
+                        <ul>
+                            <li>
+                                <a
+                                    style="color: #000"
+                                    href="https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3"
+                                >
+                                    <p class="pt-2 fs-5">
+                                        จังหวัดชุมพร จากวิกิพีเดีย สารานุกรมเสรี
+                                    </p>
+                                </a>
                             </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#main"><i class="fas fa-coin"></i><b>&nbsp;เติมเงิน</b></a>
+                            <li>
+                                <a
+                                    style="color: #000"
+                                    href="https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3"
+                                    ><p class="pt-2 fs-5">
+                                        สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
+                                        จากวิกิพีเดีย สารานุกรมเสรี
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a
+                                    style="color: #000"
+                                    href="https://mgronline.com/travel/detail/9640000073810"
+                                    ><p class="pt-2 fs-5">
+                                        “ทุเรียนป่าละอู” ทุเรียนรสดี จากพื้นที่มรดกโลกแก่งกระจาน
+                                    </p>
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </nav>
-        </div>
-
-        <div class="col-12" id="header">
-            <div class="header-landing">
-                <h4 class="header-header">
-                    <p class="header-title">จังหวัดชุมพร</p>
-                    <p class="header-text">ประตูภาคใต้ ไหว้เสด็จในกรม ชมไร่กาแฟ แลหาดทรายรี ดีกล้วยเล็บมือ ขึ้นชื่อรังนก
-                    </p>
-                </h4>
-                <div class="text-center pt-5">
-                    <a href="#main" class="btn btn-outline-secondary text-white">ดูรายละเอียด</a>
-                </div>
             </div>
         </div>
 
-        <div name="main" id="main" class="container">
-            <div class="row pt-5 pb-5 justify-content-center">
-                <div class="col-12 text-center">
-                    <h1>ประวัติ</h1>
-                    <hr>
-                    <div class="row">
-                        <div class="col-3"><img
-                                src="https://static.thairath.co.th/media/4DQpjUtzLUwmJZZSC5I6yNf41PvIx5tkrxAUGLVBRqd9.jpg"
-                                class="img-fluid rounded-5" alt="ประวัติ"></div>
-                        <div class="col-9 text-start align-self-center">
-                            <h3>ประวัติความเป็นมา</h3>
-                            สำหรับทุเรียนป่าละอู เป็นทุเรียนพันธุ์ “หมอนทอง” พระราชทาน
-                            ซึ่งสมเด็จพระศรีนครินทราบรมราชชนนีทรงพระราชทานให้แก่ตำรวจตระเวนชายแดนนำไปปลูกที่ตำบลห้วยสัตว์ใหญ่
-                            อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์ จนกลายเป็นผลไม้ที่นิยมปลูกกันในพื้นที่ เมื่อวันที่ 19
-                            พฤษภาคม พ.ศ. 2509 เมื่อครั้ง สมเด็จพระศรีนครินทราบรมราชชนนี (สมเด็จย่า)
-                            เสด็จพระราชดำเนินทรงเปิด ร.ร.อานันท์ ที่บ้านป่าละอู ต.ห้วยสัตว์ใหญ่ อ.หัวหิน
-                            จ.ประจวบคีรีขันธ์
-                        </div>
-                    </div>
-                    <div class="pt-3">
-                        <span class="pt-3">และต่อมาเมื่อวันที่ 18 มีนาคม พ.ศ. 2520
-                            พระบาทสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร ทรงมีพระราชประสงค์ให้ตั้ง
-                            โครงการหมู่บ้านสหกรณ์ห้วยสัตว์ใหญ่ป่าเด็ง-ป่าละอู จ.ประจวบคีรีขันธ์ และ จ.เพชรบุรี
-                            เมื่อวันที่ 4 พฤษภาคม พ.ศ. 2520 และมอบหมายให้กระทรวงมหาดไทย
-                            โดยสำนักงานเร่งรัดพัฒนาชนบทเป็นผู้บริหารโครงการในเขตแต่ละจังหวัด
-                            การดำเนินงานตามโครงการได้เริ่มตั้งแต่วันที่ 19 พฤษภาคม พ.ศ. 2520 เป็นต้นมา
-                            จนกระทั่งปัจจุบัน</span>
-                    </div>
-                    <div class="row">
-                        <div class="col-9 text-start align-self-center">
-                            หลังจากนั้นก็มีเกษตรกรปลูกทุเรียนจำนวนมาก
-                            จึงได้มีการรวมตัวของผู้ปลูกทุเรียนป่าละอูในตำบลห้วยสัตว์ใหญ่
-                            ด้วยสภาพภูมิประเทศที่เอื้ออำนวยต่อการเติบโตของต้นทุเรียน ทั้งมีความชื้นสัมพัทธ์สูง
-                            มีอุณหภูมิต่ำเวลากลางคืน ในฤดูฝนจะมีน้ำไหลบ่าจากยอดเขา
-                            พัดพาแร่ธาตุอาหารมาเติมให้กับพื้นที่การเกษตรเป็นประจำทุกปี และเป็นดินร่วนปนทราย น้ำขังไม่นาน
-                            เหมาะอย่างยิ่งสำหรับการปลูกทุเรียน
-                        </div>
-                        <div class="col-3"><img
-                                src="https://www.sentangsedtee.com/wp-content/uploads/2017/04/a5-1-768x576.jpg"
-                                class="img-fluid rounded-5" alt="ทุเรียนป่าละอู"></div>
-
-                    </div>
-                </div>
-                <div class="col-12 mt-5">
-                    <h3 class="fw-bolder text-center">แหล่งที่มาของข้อมูล</h3>
-                    <ul>
-                        <li>
-                            <a style="color: #000;" href="http://stiic.sti.or.th/work/bcg-model">
-                                <p class="pt-2 fs-5">สมุดปกขาวการพัฒนาวิทยาศาสตร์ เทคโนโลยีและนวัตกรรมของประเทศไทย (STI
-                                    White Paper) เพื่อเศรษฐกิจชีวภาพ เศรษฐกิจหมุนเวียน เศรษฐกิจสีเขียว (BCG Model)</p>
-                            </a>
-                        </li>
-
-                        <li>
-                            <p class="pt-2 fs-5">สมุดปกขาว BCG in Action การพัฒนาวิทยาศาสตร์
-                                เทคโนโลยีและนวัตกรรมของประเทศไทย เพื่อเศรษฐกิจชีวภาพ เศรษฐกิจหมุนเวียนและเศรษฐกิจสีเขียว
-                                Bio - Circular - Green Economy</p>
-                        </li>
-
-                        <li>
-                            <p class="pt-2 fs-5">ข้อเสนอ BCG in Action: The New Sustainable Growth Engine
-                                โมเดลเศรษฐกิจสู่การพัฒนาที่ยั่งยืน</p>
-                        </li>
-
-                        <li>
-                            <p class="pt-2 fs-5">หนังสือเศรษฐกิจสีเขียว สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ</p>
-                        </li>
-                    </ul>
-                </div>
+        <footer
+            class="bg-dark text-center mt-4 justify-content-center"
+            style="min-height: 100px"
+        >
+            <div class="text-white" style="padding-top: 40px">
+                &copy; ksongyos, nsopapol 2022
             </div>
-        </div>
-    </div>
-
-    <footer class="bg-dark text-center mt-4 justify-content-center" style="min-height: 100px;">
-        <div class="text-white" style="padding-top: 40px;">
-            &copy; ksongyos, nsopapol 2022
-        </div>
-    </footer>
-
-</body>
-
+        </footer>
+    </body>
 </html>

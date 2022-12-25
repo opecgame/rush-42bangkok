@@ -1,114 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/opecgame.css" />
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/opecgame.js"></script>
+        <title>จังหวัดชุมพร | KMITL</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/opecgame.css">
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/opecgame.js"></script>
-    <title>จังหวัดชุมพร | ทุเรียนป่าละอู</title>
-</head>
+    <body>
+        <div style="min-height: 100vh">
+            <div class="justify-content-md-center">
+                <nav
+                    class="nav navbar navbar-expand-lg fixed-top"
+                    aria-label="Navbar tomyumkung"
+                >
+                    <div class="container">
+                        <span class="navbar-brand fw-bold" href="/">
+                            จังหวัดชุมพร
+                        </span>
+                        <button
+                            class="navbar-toggler collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#devmama-navbar"
+                            aria-controls="devmama-navbar"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
 
-<body>
-    <div style="min-height: 100vh;">
-        <div class="justify-content-md-center">
-            <nav class="nav navbar navbar-expand-lg fixed-top" aria-label="Navbar tomyumkung">
-                <div class="container">
-                    <span class="navbar-brand fw-bold" href="/">
-                        จังหวัดชุมพร
-                    </span>
-                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#devmama-navbar" aria-controls="devmama-navbar" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="devmama-navbar"
+                        >
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="/"
+                                        ><i class="fas fa-home-alt"></i
+                                        ><b>&nbsp;หน้าแรก</b></a
+                                    >
+                                </li>
 
-                    <div class="collapse navbar-collapse" id="devmama-navbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#header"><i
-                                        class="fas fa-home-alt"></i><b>&nbsp;หน้าแรก</b></a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./kmitl.html"
+                                        ><i class="fas fa-coin"></i
+                                        ><b>&nbsp;KMITL</b></a
+                                    >
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#main"><i class="fas fa-coin"></i><b>&nbsp;เติมเงิน</b></a>
-                            </li>
-                        </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./palau.html"
+                                        ><i class="fas fa-coin"></i
+                                        ><b>&nbsp;ทุเรียนป่าละอู</b></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-12" id="header">
+                <div class="header-landing-kmitl">
+                    <h4 class="header-header">
+                        <p class="header-title">
+                            สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบังชุมพร
+                        </p>
+                        <p class="header-text">
+                            สถาบันอุดมศึกษาที่จัดการศึกษาด้านวิทยาศาสตร์และเทคโนโลยี
+                        </p>
+                    </h4>
+                    <div class="text-center pt-5">
+                        <a
+                            href="#main"
+                            class="btn btn-outline-secondary text-white"
+                            >ดูรายละเอียด</a
+                        >
                     </div>
                 </div>
-            </nav>
-        </div>
+            </div>
 
-        <div class="col-12" id="header">
-            <div class="header-landing-kmitl">
-                <h4 class="header-header">
-                    <p class="header-title">สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบังชุมพร</p>
-                    <p class="header-text">สถาบันอุดมศึกษาที่จัดการศึกษาด้านวิทยาศาสตร์และเทคโนโลยี</p>
-                </h4>
-                <div class="text-center pt-5">
-                    <a href="#main" class="btn btn-outline-secondary text-white">ดูรายละเอียด</a>
+            <div name="main" id="main" class="container">
+                <div class="row pt-5 pb-5 justify-content-center">
+                    <div class="col-12 text-center">
+                        <h1>
+                            สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบังชุมพร
+                        </h1>
+                        <hr />
+                        <div class="row">
+                            <div class="col-3">
+                                <img
+                                    src="https://f.ptcdn.info/045/051/000/opoqcfj4cAAQ3jclOkC-o.jpg"
+                                    class="img-fluid rounded-5"
+                                    alt="kmitl"
+                                />
+                            </div>
+                            <div class="col-9 text-start align-self-center">
+                                <h3>ประวัติความเป็นมา</h3>
+                                วิทยาเขตชุมพร
+                                เริ่มก่อตั้งจากแนวความคิดในการขยายพื้นที่ของสถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบังไปสู่ภูมิภาค
+                                ในปี พ.ศ. 2526
+                                ได้ทำการศึกษาพื้นที่ป่าสงวนแห่งชาติ ตำบลชุมโค
+                                อำเภอปะทิว จังหวัดชุมพร จำนวนประมาณ 11,224 ไร่
+                                และได้ทำการขออนุญาตจากกรมป่าไม้
+                                กระทรวงเกษตรและสหกรณ์ กระทั่งเมื่อวันที่ 3
+                                มิถุนายน พ.ศ. 2528
+                                คณะรัฐมนตรีได้มีมติอนุมัติให้สถาบันฯ
+                                เข้าทำประโยชน์จากพื้นที่ดังกล่าว สถาบันฯ
+                                จึงได้จัดตั้งหน่วยงานต่อทบวงมหาวิทยาลัย
+                                และได้รับอนุมัติให้จัดตั้ง
+                                "สถานีวิจัยการเกษตรชุมพร"
+                                เป็นหน่วยงานเทียบเท่าภาควิชา
+                                ในสังกัดคณะเทคโนโลยีการเกษตร แต่สถาบันฯ
+                                ได้ขอทบทวนและเปลี่ยนแปลงหน่วยงานเป็น
+                                "สำนักศึกษาและวิจัยชุมพร" มีฐานะเทียบเท่าคณะ
+                                และได้รับความเห็นชอบเมื่อวันที่ 18 มกราคม พ.ศ.
+                                2534
+                                โดยให้วิทยาเขตสารสนเทศเป็นทางเลือกที่เหมาะสม
+                                ดำเนินการควบคู่ไปกับการพัฒนาระบบการเรียนการสอนทางไกล
+                                โดยใช้ระบบเครือข่ายสารสนเทศ
+                                เพื่อช่วยแก้ไขปัญหาการขาดแคลนอาจารย์
+                            </div>
+                        </div>
+                        <div class="pt-3">
+                            <span class="pt-3"
+                                >ต่อมาในปี พ.ศ. 2534 จังหวัดชุมพร
+                                ได้ขอใช้พื้นที่ส่วนหนึ่งของวิทยาเขตชุมพร
+                                ในการจัดตั้งสนามบินภายในประเทศของกรมการบินพาณิชย์
+                                กระทรวงคมนาคม จำนวน 4,994 ไร่
+                                และให้ราษฎรใช้ทำกิน (สปก.) ทำให้วิทยาเขตฯ
+                                เหลือพื้นที่อยู่จำนวน 3,500 ไร่
+                                ซึ่งวิทยาเขตได้ดำเนินการก่อสร้างอาคารสถานที่
+                                โดยวิทยาเขตฯ
+                                ได้รับพระมหากรุณาธิคุณจากสมเด็จพระกนิษฐาธิราชเจ้า
+                                กรมสมเด็จพระเทพรัตนราชสุดาฯ สยามบรมราชกุมารี
+                                เสด็จพระราชดำเนินทรงวางศิลาฤกษ์อาคารเรียนรวม
+                                และพระราชทานนามว่า "อาคารเฉลิมพระเกียรติ 6 รอบ
+                                พระชนมพรรษา" และ "อาคารสมเด็จพระเทพรัตนราชสุดาฯ
+                                สยามบรมราชกุมารี" พร้อมเปิดป้ายวิทยาเขต
+                                เมื่อวันที่ 28 มีนาคม พ.ศ. 2541</span
+                            >
+                        </div>
+                        <div class="row">
+                            <div class="col-9 text-start align-self-center">
+                                วิทยาเขตชุมพร เริ่มเปิดรับนักศึกษาในปีการศึกษา
+                                2539 โดยเปิดสอนในระดับปริญญาตรี
+                                สาขาเทคโนโลยีการผลิตพืช
+                                และได้ขยายการศึกษาเรื่อยมาจนถึงปัจจุบัน
+                                เมื่อวันที่ 18 มีนาคม พศ. 2556
+                                พระบาทสมเด็จพระบรมชนกาธิเบศร
+                                มหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร
+                                ทรงพระราชทานพระบรมราชานุญาตให้เชิญพระนาม
+                                "ชุมพรเขตรอุดมศักดิ์" เป็นชื่อของ วิทยาเขตชุมพร
+                                ว่า "วิทยาเขตชุมพรเขตรอุดมศักดิ์ จังหวัดชุมพร"
+                            </div>
+                            <div class="col-3">
+                                <img
+                                    src="https://www.kmitl.ac.th/sites/default/files/2021-08/_MG_5_11.jpg"
+                                    class="img-fluid rounded-5"
+                                    alt="kmitl"
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div name="main" id="main" class="container">
-            <div class="row pt-5 pb-5 justify-content-center">
-                <div class="col-12 text-center">
-                    <h1>ทุเรียนป่าละอู</h1>
-                    <hr>
-                    <div class="row">
-                        <div class="col-3"><img
-                                src="https://static.thairath.co.th/media/4DQpjUtzLUwmJZZSC5I6yNf41PvIx5tkrxAUGLVBRqd9.jpg"
-                                class="img-fluid rounded-5" alt="ทุเรียนป่าละอู"></div>
-                        <div class="col-9 text-start align-self-center">
-                            <h3>ประวัติความเป็นมา</h3>
-                            สำหรับทุเรียนป่าละอู เป็นทุเรียนพันธุ์ “หมอนทอง” พระราชทาน
-                            ซึ่งสมเด็จพระศรีนครินทราบรมราชชนนีทรงพระราชทานให้แก่ตำรวจตระเวนชายแดนนำไปปลูกที่ตำบลห้วยสัตว์ใหญ่
-                            อำเภอหัวหิน จังหวัดประจวบคีรีขันธ์ จนกลายเป็นผลไม้ที่นิยมปลูกกันในพื้นที่ เมื่อวันที่ 19
-                            พฤษภาคม พ.ศ. 2509 เมื่อครั้ง สมเด็จพระศรีนครินทราบรมราชชนนี (สมเด็จย่า)
-                            เสด็จพระราชดำเนินทรงเปิด ร.ร.อานันท์ ที่บ้านป่าละอู ต.ห้วยสัตว์ใหญ่ อ.หัวหิน
-                            จ.ประจวบคีรีขันธ์
-                        </div>
-                    </div>
-                    <div class="pt-3">
-                        <span class="pt-3">และต่อมาเมื่อวันที่ 18 มีนาคม พ.ศ. 2520
-                            พระบาทสมเด็จพระมหาภูมิพลอดุลยเดชมหาราช บรมนาถบพิตร ทรงมีพระราชประสงค์ให้ตั้ง
-                            โครงการหมู่บ้านสหกรณ์ห้วยสัตว์ใหญ่ป่าเด็ง-ป่าละอู จ.ประจวบคีรีขันธ์ และ จ.เพชรบุรี
-                            เมื่อวันที่ 4 พฤษภาคม พ.ศ. 2520 และมอบหมายให้กระทรวงมหาดไทย
-                            โดยสำนักงานเร่งรัดพัฒนาชนบทเป็นผู้บริหารโครงการในเขตแต่ละจังหวัด
-                            การดำเนินงานตามโครงการได้เริ่มตั้งแต่วันที่ 19 พฤษภาคม พ.ศ. 2520 เป็นต้นมา
-                            จนกระทั่งปัจจุบัน</span>
-                    </div>
-                    <div class="row">
-                        <div class="col-9 text-start align-self-center">
-                            หลังจากนั้นก็มีเกษตรกรปลูกทุเรียนจำนวนมาก
-                            จึงได้มีการรวมตัวของผู้ปลูกทุเรียนป่าละอูในตำบลห้วยสัตว์ใหญ่
-                            ด้วยสภาพภูมิประเทศที่เอื้ออำนวยต่อการเติบโตของต้นทุเรียน ทั้งมีความชื้นสัมพัทธ์สูง
-                            มีอุณหภูมิต่ำเวลากลางคืน ในฤดูฝนจะมีน้ำไหลบ่าจากยอดเขา
-                            พัดพาแร่ธาตุอาหารมาเติมให้กับพื้นที่การเกษตรเป็นประจำทุกปี และเป็นดินร่วนปนทราย น้ำขังไม่นาน
-                            เหมาะอย่างยิ่งสำหรับการปลูกทุเรียน
-                        </div>
-                        <div class="col-3"><img
-                                src="https://www.sentangsedtee.com/wp-content/uploads/2017/04/a5-1-768x576.jpg"
-                                class="img-fluid rounded-5" alt="ทุเรียนป่าละอู"></div>
-
-                    </div>
-                </div>
+        <footer
+            class="bg-dark text-center mt-4 justify-content-center"
+            style="min-height: 100px"
+        >
+            <div class="text-white" style="padding-top: 40px">
+                &copy; ksongyos, nsopapol 2022
             </div>
-        </div>
-    </div>
-
-    <footer class="bg-dark text-center mt-4 justify-content-center" style="min-height: 100px;">
-        <div class="text-white" style="padding-top: 40px;">
-            &copy; ksongyos, nsopapol 2022
-        </div>
-    </footer>
-
-</body>
-
+        </footer>
+    </body>
 </html>
