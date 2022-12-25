@@ -12,13 +12,22 @@
   background-size: cover;
 }
 
-.header-content {
-  min-height: 25vh;
+.header-landing-lau {
+  min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 70%)),
-    url("../img/pexels-pixabay-235734.jpg");
+    url("https://mpics-cdn.mgronline.com/pics/Images/564000007547601.JPEG");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.header-landing-kmitl {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 70%)),
+    url("https://i.ytimg.com/vi/FT5BY4kQv-E/maxresdefault.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .header-content-header {
   padding-top: 10vh;
